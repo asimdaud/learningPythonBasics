@@ -46,7 +46,8 @@ def start():
                     var_multiply = multiply(number_element, var_multiply)
                 print("The answer is: ", var_multiply)
     except ValueError:
-        print("Invalid choice, terminating program...")
+        print("Invalid choice, terminating program....")
+
 
 
 start()
